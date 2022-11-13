@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import './core/variables';
 @import './core/utilities';
 @import './core/typography';
@@ -102,3 +103,109 @@ body {
         }
     }
 }
+=======
+@import './core/variables';
+@import './core/utilities';
+@import './core/typography';
+@import './core/reset.scss';
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-cream;
+    margin: 20px;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.product-preview {
+    .product-image {
+        @media (min-width: 680px) {
+            flex: 1;
+        }
+    }
+
+    max-width: 730px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    @media (min-width: 680px) {
+        display: flex;
+    }
+    .product-info {
+        background-color: $neutral-white;
+        padding: 1.5em;
+        @media (min-width: 680px) {
+            flex: 1;
+        }
+        > *:not(:last-child) {
+            margin-bottom: $spacing;
+            @media (min-width: 680px) {
+                margin-bottom: $spacing * 1.8;
+            }
+        }
+    }
+    .product-description {
+        p:first-child {
+            letter-spacing: 5px;
+        }
+    }
+    .product-description {
+        > *:not(:last-child) {
+            margin-bottom: $spacing;
+            @media (min-width: 680px) {
+                margin-bottom: $spacing * 1.8;
+            }
+        }
+    }
+    .product-description-text {
+        max-width: 100%;
+        @media (min-width: 680px) {
+            max-width: 70%;
+        }
+    }
+
+    .product-price-checkout {
+        > *:not(:last-child) {
+            margin-bottom: $spacing;
+            @media (min-width: 680px) {
+                margin-bottom: $spacing * 1.8;
+            }
+        }
+    }
+    .product-price {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .new-price {
+            font-size: 2rem;
+            font-weight: bold;
+            font-family: 'Fraunces', serif;
+        }
+    }
+    .cart-btn {
+        cursor: pointer;
+        border-radius: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1.2rem;
+        border: 1px solid $primary-dark-cyan;
+        transition: 0.3s background-color;
+        &:hover {
+            background-color: darken($primary-dark-cyan, 5%);
+        }
+    }
+}
+>>>>>>> f28c227637aa20f2e08ebb00b73be7215969256a
