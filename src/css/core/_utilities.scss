@@ -1,0 +1,53 @@
+@use './variables';
+
+.ff-fraunces {
+    font-family: 'Fraunces', serif;
+}
+.ff-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.fw-bold {
+    font-weight: bold;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.dark-cyan-text {
+    color: $primary-dark-cyan;
+}
+.dark-cyan-bg {
+    background-color: $primary-dark-cyan;
+}
+.cream-text {
+    color: $primary-cream;
+}
+.cream-bg {
+    background-color: $primary-cream;
+}
+.dark-blue-text {
+    color: $neutral-dark-blue;
+}
+.dark-blue-bg {
+    background-color: $neutral-dark-blue;
+}
+.grayish-blue-text {
+    color: $neutral-grayish-blue;
+}
+.grayish-blue-bg {
+    background-color: $neutral-grayish-blue;
+}
+.white-text {
+    color: $neutral-white;
+}
+.white-bg {
+    background-color: $neutral-white;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.lh-16 {
+    line-height: 1.6;
+}
