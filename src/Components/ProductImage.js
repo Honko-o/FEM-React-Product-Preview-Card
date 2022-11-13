@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import mobileImage from '../images/image-product-mobile.jpg';
+import pcImage from '../images/image-product-desktop.jpg';
 class ProductImage extends Component {
     state = { windowWidth: window.innerWidth };
 
@@ -20,20 +21,14 @@ class ProductImage extends Component {
         if (this.state.windowWidth >= 680) {
             return (
                 <div className="product-image">
-                    <img
-                        src="../../images/image-product-desktop.jpg"
-                        alt="perfume img"
-                    />
+                    <img src={pcImage} alt="perfume img" />
                 </div>
             );
         }
 
         return (
             <div className="product-image">
-                <img
-                    src="../../images/image-product-mobile.jpg"
-                    alt="perfume img"
-                />
+                <img src={mobileImage} alt="perfume img" />
             </div>
         );
     }
