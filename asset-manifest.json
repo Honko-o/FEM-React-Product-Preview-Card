@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/FEM-React-Product-Preview-Card/static/css/main.27d2233a.css",
-    "main.js": "/FEM-React-Product-Preview-Card/static/js/main.b33fbe69.js",
+    "main.js": "/FEM-React-Product-Preview-Card/static/js/main.3a127c6f.js",
+    "static/media/image-product-desktop.jpg": "/FEM-React-Product-Preview-Card/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "static/media/image-product-mobile.jpg": "/FEM-React-Product-Preview-Card/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
     "index.html": "/FEM-React-Product-Preview-Card/index.html",
     "main.27d2233a.css.map": "/FEM-React-Product-Preview-Card/static/css/main.27d2233a.css.map",
-    "main.b33fbe69.js.map": "/FEM-React-Product-Preview-Card/static/js/main.b33fbe69.js.map"
+    "main.3a127c6f.js.map": "/FEM-React-Product-Preview-Card/static/js/main.3a127c6f.js.map"
   },
   "entrypoints": [
     "static/css/main.27d2233a.css",
-    "static/js/main.b33fbe69.js"
+    "static/js/main.3a127c6f.js"
   ]
 }
