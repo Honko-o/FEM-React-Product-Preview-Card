@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FEM-React-Product-Preview-Card/static/css/main.27d2233a.css",
+    "main.js": "/FEM-React-Product-Preview-Card/static/js/main.b33fbe69.js",
+    "index.html": "/FEM-React-Product-Preview-Card/index.html",
+    "main.27d2233a.css.map": "/FEM-React-Product-Preview-Card/static/css/main.27d2233a.css.map",
+    "main.b33fbe69.js.map": "/FEM-React-Product-Preview-Card/static/js/main.b33fbe69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27d2233a.css",
+    "static/js/main.b33fbe69.js"
+  ]
+}
